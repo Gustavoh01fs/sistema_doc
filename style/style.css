@@ -1,0 +1,106 @@
+
+/* Página Index.php */
+#body{
+    background-image: linear-gradient(to bottom right, white, gray);
+    height: 970px;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+.bottao{
+    height: 50px;
+    background-color: gray;
+    width: 100px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0 5px 0  gray;
+    border:none ;
+    border-radius: 10%;
+    
+}
+
+.bottao:hover{
+	background-color: rgb(95, 95, 95);
+	color: white;
+    box-shadow: none;
+    position: relative;
+	top: 5px;
+
+}
+
+.ah1{
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.formlog{
+    text-align: left;
+    margin-left: 5%;
+}
+
+
+
+/* Pagina pagadm.php*/
+
+.bottaoadm{
+    height: 50px;
+    background-color: gray;
+    width: 100px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0 5px 0  gray;
+    border:none ;
+    margin-left: 5%;
+    border-radius: 10%;
+}
+
+.bottaoadm:hover{
+	background-color: rgb(95, 95, 95);
+	color: white;
+    box-shadow: none;
+    position: relative;
+	top: 5px;
+
+}
+
+/* Pagina historico.php*/
+
+a.classe:link, a.classe:visited, a.classe:active {
+	text-decoration:none;
+    color:black;
+}
+a.classe:hover {
+	text-decoration: none;
+	color:white;
+}
+
+/* Pagina uploadpdf.php*/
+
+select {
+    width:12%;
+    height:2%;
+    font-size:14px;
+    background-color:#d1d1d1;
+    margin-top: 20%;
+}
+.bottaop{
+    height: 20px;
+    background-color: gray;
+    width: 100px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0 5px 0  gray;
+    border:none ;
+    border-radius: 10%;
+    
+}
+
+.bottaop:hover{
+	background-color: rgb(95, 95, 95);
+	color: white;
+    box-shadow: none;
+    position: relative;
+	top: 5px;
+}

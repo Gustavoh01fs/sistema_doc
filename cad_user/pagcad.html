@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<head>
+    <html>
+        <script>
+            function formatar(mascara, documento){
+                var i = documento.value.length;
+                var saida = mascara.substring(0,1);
+                var texto = mascara.substring(i);
+        
+                if (texto.substring(0,1) != saida){
+                    documento.value += texto.substring(0,1);
+                } 
+            }
+        </script>
+    
+</head>
+<meta charset="utf-8">
+	<title>Cadastro</title>
+		<link rel="icon" href="Imagens/favicon-16x16.png">
+	    <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+<body>
+    <div id="body">
+    <form method="POST" action="cadastro.php" align="center">
+        <table>
+            <font color="black" size="4">
+                <br><br><br><br><br><tr><p><b>Nome</b><br><input type="text" name="nome" required="" placeholder="Digite seu nome..."><br>
+                <tr><p><b>Email</b><br><input type="text" name="email" required="" placeholder="seuemail@gmail.com"><br>
+                <tr><p><b>Senha</b><br><input type="password" maxlength="10" name="senha" minlength="8" required="" placeholder="**********"><br>
+                <tr><p><b>Confirmar Senha</b><br><input type="password" maxlength="10" name="consenha" minlength="8" required="" placeholder="**********"><br>            
+        </table>
+            </font>	
+        <button type="submit" name="submit" class="bottao">Enviar</button>
+        <button type="reset" class="bottao">Limpar</button>
+        <a href="../index.php"><button type="button" class="bottao">Login</button></a>
+    </form>
+</div>
+</body>
+</html>
